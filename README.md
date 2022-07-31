@@ -1,20 +1,20 @@
 ## Air-light - A minimalist WordPress starter theme
 
-[![Build Status](https://img.shields.io/travis/com/digitoimistodude/air-light.svg?style=flat-square)](https://travis-ci.com/digitoimistodude/air-light) [![GitHub release](https://img.shields.io/github/tag/digitoimistodude/air-light.svg?style=flat-square)](https://github.com/digitoimistodude/air-light/releases) ![GitHub contributors](https://img.shields.io/github/contributors/digitoimistodude/air-light.svg?style=flat-square)
+[![Build Status](https://img.shields.io/travis/com/digitoimistodude/ak-starter.svg?style=flat-square)](https://travis-ci.com/digitoimistodude/ak-starter) [![GitHub release](https://img.shields.io/github/tag/digitoimistodude/ak-starter.svg?style=flat-square)](https://github.com/digitoimistodude/ak-starter/releases) ![GitHub contributors](https://img.shields.io/github/contributors/digitoimistodude/ak-starter.svg?style=flat-square)
 
 Air-light (or simply *Air*) is designed to be a ultra minimal starting point for a WordPress project at [Digitoimisto Dude Oy](https://www.dude.fi), a Finnish boutique digital agency in the center of Jyväskylä. Theme is originally based on [\_s](https://github.com/automattic/_s). We welcome all happy contributors with open arms! [See roadmap](https://favro.com/organization/3b45e73eaf083f68fefef368/c1dd2d4a99d6723904d2e763).
 
-## [Demo](https://airwptheme.com/demo) | [Documentation](https://github.com/digitoimistodude/air-light/wiki)
+## [Demo](https://airwptheme.com/demo) | [Documentation](https://github.com/digitoimistodude/ak-starter/wiki)
 
 * **CSS gzipped:** 16.8 KB *(originally 124.4 KB)*
 * **JS gzipped:** 8.6 KB *(28.6 KB original)*
 * **Front page HTML**: 7.4 KB *(29.4 KB original)*
 
-![air-light-readme-mockup-latest](https://user-images.githubusercontent.com/1534150/170326942-b7404051-7621-4df3-9294-0ccd5e6f59a7.png)
+![ak-starter-readme-mockup-latest](https://user-images.githubusercontent.com/1534150/170326942-b7404051-7621-4df3-9294-0ccd5e6f59a7.png)
 
 ## Weekly updates!
 
-This theme is constantly kept up to date by a bunch of [awesome contributors](https://github.com/digitoimistodude/air-light/graphs/contributors). Wanna join in development? Read [the instructions for contributing](#contributing) and let us know about your first PR!
+This theme is constantly kept up to date by a bunch of [awesome contributors](https://github.com/digitoimistodude/ak-starter/graphs/contributors). Wanna join in development? Read [the instructions for contributing](#contributing) and let us know about your first PR!
 
 ![Alt](https://repobeats.axiom.co/api/embed/bd95f5747b41d3cf662e033044af08dee9a15f9f.svg "Repobeats analytics image")
 
@@ -24,11 +24,11 @@ Air-light is built to be very straightforward, backwards compatible, front-end d
 
 **Our mission and goal** is **minimalism** and **simplicity**. **Our vision** is to build a theme that will not implement its own wrappers or functions, will not use any templating languages that would take things further from traditional PHP or CSS, will contain nothing that people will not use or need. Air-light will be free of weird "app-like" folder structures or odd syntaxes that nobody else uses. We love WordPress as it was and as it is.
 
-Air was renamed to air-light in version 3.7.8 (March 20th, 2018), because *air* was already taken in the official WordPress theme directory.
+Air was renamed to ak-starter in version 3.7.8 (March 20th, 2018), because *air* was already taken in the official WordPress theme directory.
 
 ### Official, approved, accessibility-ready!
 
-Air-light v. 4.2.2 was approved to [official WordPress theme directory](https://wordpress.org/themes/air-light/) on June 4, 2018. But please note, all changes you do to the theme without generating your own or changing textdomain will be overridden in theme updates - so if you use this theme as a starting point, please follow instructions and/or replace the textdomain with your own.
+Air-light v. 4.2.2 was approved to [official WordPress theme directory](https://wordpress.org/themes/ak-starter/) on June 4, 2018. But please note, all changes you do to the theme without generating your own or changing textdomain will be overridden in theme updates - so if you use this theme as a starting point, please follow instructions and/or replace the textdomain with your own.
 
 ![accessibility](https://user-images.githubusercontent.com/1534150/155683656-aab335d3-8e11-4600-ade7-f7c332ade87d.gif)
 _Fully keyboard accessible navigation!_
@@ -85,7 +85,7 @@ Please see [Visual Overview](https://developer.wordpress.org/themes/basics/templ
 Here's the current Air-light theme structure (prone to changes, not updating in real time, but stays mostly the same in its pricinpals):
 
 ``` shell
-themes/your-theme-name/              # → Root of your air-light based theme
+themes/your-theme-name/              # → Root of your ak-starter based theme
 ├── 404.php                          # → Default "not found" page
 ├── archive.php                      # → Default archive template
 ├── bin/                             # → Scripts
@@ -101,7 +101,7 @@ themes/your-theme-name/              # → Root of your air-light based theme
 ├── functions.php                    # → Set up your theme basic settings
 ├── gulp/                            # → Gulp related settings and tasks
 │   └── ...                          #
-├── gulpfile.js                      # → Core gulpfile for air-light development
+├── gulpfile.js                      # → Core gulpfile for ak-starter development
 ├── header.php                       # → Site header
 ├── images/                          # → Your theme images, for example default featured images and placeholders
 ├── inc/                             # → Theme core PHP
@@ -298,7 +298,7 @@ Creating accessible websites is really important and our goal is to make air as 
 
 #### Lazy load
 
-From 4.7.1 air-light has a lazy loading image features for background images and imgs. If you don't use this feature, remove it from [scripts](https://github.com/digitoimistodude/blob/d517688bb400ac68100dcbdcd4bc7dbce7739099/js/src/scripts.js#L10). This feature depends on [air-helper](https://github.com/digitoimistodude/air-helper), check out [the documentation in air-helper](https://github.com/digitoimistodude/air-helper#image-lazyloading-1) for further instructions.
+From 4.7.1 ak-starter has a lazy loading image features for background images and imgs. If you don't use this feature, remove it from [scripts](https://github.com/digitoimistodude/blob/d517688bb400ac68100dcbdcd4bc7dbce7739099/js/src/scripts.js#L10). This feature depends on [air-helper](https://github.com/digitoimistodude/air-helper), check out [the documentation in air-helper](https://github.com/digitoimistodude/air-helper#image-lazyloading-1) for further instructions.
 
 #### Disabled features
 
@@ -364,11 +364,11 @@ Starting from v2.6.0 WooCommerce support comes with [Air helper](https://github.
 
 ### How to build a new theme
 
-Please refer to Wiki section [Getting started in theming with Air-light](https://github.com/digitoimistodude/air-light/wiki#2-getting-started-in-theming-with-air-light).
+Please refer to Wiki section [Getting started in theming with Air-light](https://github.com/digitoimistodude/ak-starter/wiki#2-getting-started-in-theming-with-ak-starter).
 
 ### Usage
 
-See [Documentation](https://github.com/digitoimistodude/air-light/wiki).
+See [Documentation](https://github.com/digitoimistodude/ak-starter/wiki).
 
 ### Contributing
 
@@ -394,21 +394,21 @@ Air is originally built on [dudestack](https://github.com/digitoimistodude/dudes
 2. Go to bin folder `cd /var/www/dudestack/bin` and run `bash wsl.sh` or `bash macos.sh` depending on your platform. Follow instructions.
 3. Run `createproject`, name project after *airdev* when asked
 4. Wait for the project to be created (get a coffee, first time can take couple of minutes)
-5. Create a fork of air-light (press fork button on GitHub) (or if you are Dude staff, just create new branch for changes)
+5. Create a fork of ak-starter (press fork button on GitHub) (or if you are Dude staff, just create new branch for changes)
 6. Go to the theme folder of your WordPress instance via Terminal (`cd /var/www/airdev/content/themes`)
-7. Clone your fork with `git clone git@github.com:yourusername/air-light.git` (replace yourusername with your actual username)
-8. Cd to your new cloned repository `cd /var/www/airdev/content/themes/air-light`
+7. Clone your fork with `git clone git@github.com:yourusername/ak-starter.git` (replace yourusername with your actual username)
+8. Cd to your new cloned repository `cd /var/www/airdev/content/themes/ak-starter`
 9. Get the dependencides by running `npm install` inside the theme folder (if you don't have npm installed, see [here](https://www.npmjs.com/get-npm) or just use [homebrew](https://brew.sh))
 10. Wait npm to get through files (get another cup of coffee)
-11. Activate theme - if you are using the lightweight [macos-lemp-setup](https://github.com/digitoimistodude/macos-lemp-setup): `cd /var/www/airdev && vendor/wp-cli/wp-cli/bin/wp theme activate air-light`
-12. Open whole project to your preferred coding editor, for example when using [Visual Studio Code](https://github.com/ronilaukkarinen/vscode-settings) that would be `code /var/www/airdev/content/themes/air-light` or via GUI (Open folder).
-13. Go to back to air-light dir with `cd /var/www/airdev/content/themes/air-light` and then run `gulp` and start developing! Please note, contributing to this theme is only possible when gulp is run from theme directory, NOT on project root.
+11. Activate theme - if you are using the lightweight [macos-lemp-setup](https://github.com/digitoimistodude/macos-lemp-setup): `cd /var/www/airdev && vendor/wp-cli/wp-cli/bin/wp theme activate ak-starter`
+12. Open whole project to your preferred coding editor, for example when using [Visual Studio Code](https://github.com/ronilaukkarinen/vscode-settings) that would be `code /var/www/airdev/content/themes/ak-starter` or via GUI (Open folder).
+13. Go to back to ak-starter dir with `cd /var/www/airdev/content/themes/ak-starter` and then run `gulp` and start developing! Please note, contributing to this theme is only possible when gulp is run from theme directory, NOT on project root.
 
 You may want to add `alias wp='./vendor/wp-cli/wp-cli/bin/wp'` for [macos-lemp-setup](https://github.com/digitoimistodude/macos-lemp-setup) to be able to run WP-CLI with just `wp`.
 
 ##### 2\. Use your own stack
 
-To install air-light to your own development environment, just clone your fork to your theme directory, activate the theme, and make changes. If you make changes to front-end (JS/SCSS), you'll need to use our gulpfile and npm dependencies, so make sure you go through steps 9-10 and 12 above.
+To install ak-starter to your own development environment, just clone your fork to your theme directory, activate the theme, and make changes. If you make changes to front-end (JS/SCSS), you'll need to use our gulpfile and npm dependencies, so make sure you go through steps 9-10 and 12 above.
 
 When you make changes, commit them with clear describing commit messages and them make a pull request. We are happy to accept improvements!
 
@@ -458,8 +458,8 @@ It's also best to have all `stylelint`, `eslint`, `phpcs` living inside your edi
 
 This release cycle will release a new version to:
 
-- [GitHub](https://github.com/digitoimistodude/air-light)
-- [WordPress.org](https://wordpress.org/themes/air-light/)
+- [GitHub](https://github.com/digitoimistodude/ak-starter)
+- [WordPress.org](https://wordpress.org/themes/ak-starter/)
 - [Demo site](https://dudetest.xyz/air/)
 
 Whenever you have updates that are worthwile, commit them with clear commit messages and then do versioning. Every meaningful commit or bunch of commits that form a feature together make the version go up semantically 0.0.1.
@@ -467,7 +467,7 @@ Whenever you have updates that are worthwile, commit them with clear commit mess
 Use bash alias (replace YOURUSERNAME with your own):
 
 ``` bash
-alias release_new_air_version='git push && git push --tags && rsync -av -e ssh --exclude={"/node_modules/*","/bin/*","/sass/*"} /var/www/airdev/content/themes/air-light/* YOURUSERNAME@YOURSERVER:/var/www/airwptheme.com/public_html/demo/content/themes/air-light/ && /var/www/airdev/content/themes/air-light/bin && sh air-move-out.sh && sh air-pack.sh'
+alias release_new_air_version='git push && git push --tags && rsync -av -e ssh --exclude={"/node_modules/*","/bin/*","/sass/*"} /var/www/airdev/content/themes/ak-starter/* YOURUSERNAME@YOURSERVER:/var/www/airwptheme.com/public_html/demo/content/themes/ak-starter/ && /var/www/airdev/content/themes/ak-starter/bin && sh air-move-out.sh && sh air-pack.sh'
 ```
 
 The release cycle:
@@ -485,8 +485,8 @@ That's it, you released a new version!
 
 Gzip file sizes tested with `wc -c css/prod/global.css` and `gzip -c css/prod/global.css | wc -c` commands.
 
-**Theme developers please note:** if you use phpcs in [SublimeLinter as custom standard](https://github.com/ronilaukkarinen/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings#L47) on [dudestack](https://github.com/digitoimistodude/dudestack), you will need extra content/themes/air-light subfolders inside theme directory for it to work on both global projects and with air-light.
+**Theme developers please note:** if you use phpcs in [SublimeLinter as custom standard](https://github.com/ronilaukkarinen/sublime-settings/blob/master/Library/Application%20Support/Sublime%20Text%203/Packages/User/SublimeLinter.sublime-settings#L47) on [dudestack](https://github.com/digitoimistodude/dudestack), you will need extra content/themes/ak-starter subfolders inside theme directory for it to work on both global projects and with ak-starter.
 
 ### Known issues
 
-See tool related issues in [devpackages](https://github.com/digitoimistodude/devpackages#known-issues) and [air-light issue tracker](https://github.com/digitoimistodude/issues).
+See tool related issues in [devpackages](https://github.com/digitoimistodude/devpackages#known-issues) and [ak-starter issue tracker](https://github.com/digitoimistodude/issues).

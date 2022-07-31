@@ -7,7 +7,7 @@
  * @Last Modified by:   Elias Kautto
  * @Last Modified time: 2022-02-01 11:42:49
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;
@@ -19,9 +19,9 @@ namespace Air_Light;
  */
 function widgets_init() {
   register_sidebar( array(
-    'name'          => esc_html__( 'Sidebar', 'air-light' ),
+    'name'          => esc_html__( 'Sidebar', 'ak-starter' ),
     'id'            => 'sidebar-1',
-    'description'   => esc_html__( 'Add widgets here.', 'air-light' ),
+    'description'   => esc_html__( 'Add widgets here.', 'ak-starter' ),
     'before_widget' => '<section id="%1$s" class="widget %2$s">',
     'after_widget'  => '</section>',
     'before_title'  => '<h2 class="widget-title">',

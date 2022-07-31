@@ -7,7 +7,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-06-09 12:03:40
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;

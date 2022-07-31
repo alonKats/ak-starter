@@ -5,7 +5,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-06-09 12:04:05
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;
@@ -16,7 +16,7 @@ add_filter( 'air_helper_pll_register_strings', function() {
   ];
 
   /**
-   * Uncomment if you need to have default air-light accessibility strings
+   * Uncomment if you need to have default ak-starter accessibility strings
    * translatable via Polylang string translations.
    */
   // foreach ( get_default_localization_strings() as $key => $value ) {
@@ -29,29 +29,29 @@ add_filter( 'air_helper_pll_register_strings', function() {
 function get_default_localization_strings( $language = 'en' ) {
   $strings = [
     'en'  => [
-      'Add a menu'                                   => __( 'Add a menu', 'air-light' ),
-      'Open main menu'                               => __( 'Open main menu', 'air-light' ),
-      'Close main menu'                              => __( 'Close main menu', 'air-light' ),
-      'Main navigation'                              => __( 'Main navigation', 'air-light' ),
-      'Back to top'                                  => __( 'Back to top', 'air-light' ),
-      'Open child menu'                              => __( 'Open child menu', 'air-light' ),
-      'Open child menu for'                          => __( 'Open child menu for', 'air-light' ),
-      'Close child menu'                             => __( 'Close child menu', 'air-light' ),
-      'Close child menu for'                         => __( 'Close child menu for', 'air-light' ),
-      'Skip to content'                              => __( 'Skip to content', 'air-light' ),
-      'Skip over the carousel element'               => __( 'Skip over the carousel element', 'air-light' ),
-      'External site'                                => __( 'External site', 'air-light' ),
-      'opens in a new window'                        => __( 'opens in a new window', 'air-light' ),
-      'Page not found.'                              => __( 'Page not found.', 'air-light' ),
-      'The reason might be mistyped or expired URL.' => __( 'The reason might be mistyped or expired URL.', 'air-light' ),
-      'Search'                                       => __( 'Search', 'air-light' ),
-      'Block missing required data'                  => __( 'Block missing required data', 'air-light' ),
-      'This error is shown only for logged in users' => __( 'This error is shown only for logged in users', 'air-light' ),
-      'No results found for your search'             => __( 'No results found for your search', 'air-light' ),
-      'Edit'                                         => __( 'Edit', 'air-light' ),
-      'Previous slide'                               => __( 'Previous slide', 'air-light' ),
-      'Next slide'                                   => __( 'Next slide', 'air-light' ),
-      'Last slide'                                   => __( 'Last slide', 'air-light' ),
+      'Add a menu'                                   => __( 'Add a menu', 'ak-starter' ),
+      'Open main menu'                               => __( 'Open main menu', 'ak-starter' ),
+      'Close main menu'                              => __( 'Close main menu', 'ak-starter' ),
+      'Main navigation'                              => __( 'Main navigation', 'ak-starter' ),
+      'Back to top'                                  => __( 'Back to top', 'ak-starter' ),
+      'Open child menu'                              => __( 'Open child menu', 'ak-starter' ),
+      'Open child menu for'                          => __( 'Open child menu for', 'ak-starter' ),
+      'Close child menu'                             => __( 'Close child menu', 'ak-starter' ),
+      'Close child menu for'                         => __( 'Close child menu for', 'ak-starter' ),
+      'Skip to content'                              => __( 'Skip to content', 'ak-starter' ),
+      'Skip over the carousel element'               => __( 'Skip over the carousel element', 'ak-starter' ),
+      'External site'                                => __( 'External site', 'ak-starter' ),
+      'opens in a new window'                        => __( 'opens in a new window', 'ak-starter' ),
+      'Page not found.'                              => __( 'Page not found.', 'ak-starter' ),
+      'The reason might be mistyped or expired URL.' => __( 'The reason might be mistyped or expired URL.', 'ak-starter' ),
+      'Search'                                       => __( 'Search', 'ak-starter' ),
+      'Block missing required data'                  => __( 'Block missing required data', 'ak-starter' ),
+      'This error is shown only for logged in users' => __( 'This error is shown only for logged in users', 'ak-starter' ),
+      'No results found for your search'             => __( 'No results found for your search', 'ak-starter' ),
+      'Edit'                                         => __( 'Edit', 'ak-starter' ),
+      'Previous slide'                               => __( 'Previous slide', 'ak-starter' ),
+      'Next slide'                                   => __( 'Next slide', 'ak-starter' ),
+      'Last slide'                                   => __( 'Last slide', 'ak-starter' ),
     ],
     'fi'  => [
       'Add a menu'                                   => 'Luo uusi valikko',

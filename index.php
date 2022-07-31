@@ -11,7 +11,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-02-08 17:03:18
  *
- * @package air-light
+ * @package ak-starter
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  */
 

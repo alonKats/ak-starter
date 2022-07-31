@@ -5,7 +5,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2021-05-04 11:13:10
  *
- * @package air-light
+ * @package ak-starter
  **/
 
 namespace Air_Light;
@@ -19,20 +19,20 @@ class Your_Post_Type extends Post_Type {
 
     // Modify all the i18ized strings here.
     $generated_labels = [
-      'menu_name'          => __( 'Your Post Type', 'air-light' ),
-      'name'               => _x( 'Your Post Types', 'post type general name', 'air-light' ),
-      'singular_name'      => _x( 'Your Post Type', 'post type singular name', 'air-light' ),
-      'name_admin_bar'     => _x( 'Your Post Type', 'add new on admin bar', 'air-light' ),
-      'add_new'            => _x( 'Add New', 'thing', 'air-light' ),
-      'add_new_item'       => __( 'Add New Your Post Type', 'air-light' ),
-      'new_item'           => __( 'New Your Post Type', 'air-light' ),
-      'edit_item'          => __( 'Edit Your Post Type', 'air-light' ),
-      'view_item'          => __( 'View Your Post Type', 'air-light' ),
-      'all_items'          => __( 'All Your Post Types', 'air-light' ),
-      'search_items'       => __( 'Search Your Post Types', 'air-light' ),
-      'parent_item_colon'  => __( 'Parent Your Post Types:', 'air-light' ),
-      'not_found'          => __( 'No your post types found.', 'air-light' ),
-      'not_found_in_trash' => __( 'No your post types found in Trash.', 'air-light' ),
+      'menu_name'          => __( 'Your Post Type', 'ak-starter' ),
+      'name'               => _x( 'Your Post Types', 'post type general name', 'ak-starter' ),
+      'singular_name'      => _x( 'Your Post Type', 'post type singular name', 'ak-starter' ),
+      'name_admin_bar'     => _x( 'Your Post Type', 'add new on admin bar', 'ak-starter' ),
+      'add_new'            => _x( 'Add New', 'thing', 'ak-starter' ),
+      'add_new_item'       => __( 'Add New Your Post Type', 'ak-starter' ),
+      'new_item'           => __( 'New Your Post Type', 'ak-starter' ),
+      'edit_item'          => __( 'Edit Your Post Type', 'ak-starter' ),
+      'view_item'          => __( 'View Your Post Type', 'ak-starter' ),
+      'all_items'          => __( 'All Your Post Types', 'ak-starter' ),
+      'search_items'       => __( 'Search Your Post Types', 'ak-starter' ),
+      'parent_item_colon'  => __( 'Parent Your Post Types:', 'ak-starter' ),
+      'not_found'          => __( 'No your post types found.', 'ak-starter' ),
+      'not_found_in_trash' => __( 'No your post types found in Trash.', 'ak-starter' ),
     ];
 
     // Definition of the post type arguments. For full list see:

@@ -51,7 +51,7 @@ done
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://laragon.org/ Full Version
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/ak-starter
 ${TXTRESET}"
 
 # Ask names and credentials

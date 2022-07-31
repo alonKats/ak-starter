@@ -27,7 +27,7 @@ source ${SCRIPTS_LOCATION}/tasks/wsl-packages.sh
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://github.com/digitoimistodude/windows-lemp-setup
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/ak-starter
 ${TXTRESET}"
 
 # Import required tasks

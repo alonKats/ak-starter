@@ -4,7 +4,7 @@
  * @Date:   2021-05-11 14:38:45
  * @Last Modified by:   Elias Kautto
  * @Last Modified time: 2022-05-27 10:33:27
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;

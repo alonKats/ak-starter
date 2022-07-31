@@ -4,7 +4,7 @@
  * @Date:   2021-05-11 14:34:14
  * @Last Modified by:   Timi Wahalahti
  * @Last Modified time: 2021-05-26 13:06:36
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;
@@ -12,8 +12,8 @@ namespace Air_Light;
 function acf_blocks_add_category_in_gutenberg( $categories, $post ) {
   return array_merge( $categories, [
     [
-      'slug'  => 'air-light',
-      'title' => __( 'Theme blocks', 'air-light' ),
+      'slug'  => 'ak-starter',
+      'title' => __( 'Theme blocks', 'ak-starter' ),
     ],
   ] );
 } // end acf_blocks_add_category_in_gutenberg

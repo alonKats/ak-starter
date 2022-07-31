@@ -9,7 +9,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-06-30 16:36:48
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;
@@ -30,7 +30,7 @@ add_action( 'after_setup_theme', function() {
     /**
      * Theme textdomain
      */
-    'textdomain' => 'air-light',
+    'textdomain' => 'ak-starter',
 
     /**
      * Image and content sizes
@@ -81,14 +81,14 @@ add_action( 'after_setup_theme', function() {
      * Menu locations
      */
     'menu_locations' => [
-      'primary' => __( 'Primary Menu', 'air-light' ),
+      'primary' => __( 'Primary Menu', 'ak-starter' ),
     ],
 
     /**
      * Taxonomies
      *
      * See the instructions:
-     * https://github.com/digitoimistodude/air-light#custom-taxonomies
+     * https://github.com/digitoimistodude/ak-starter#custom-taxonomies
      */
     'taxonomies' => [
       // 'your-taxonomy' => [
@@ -101,7 +101,7 @@ add_action( 'after_setup_theme', function() {
      * Post types
      *
      * See the instructions:
-     * https://github.com/digitoimistodude/air-light#custom-post-types
+     * https://github.com/digitoimistodude/ak-starter#custom-post-types
      */
     'post_types' => [
       // 'your-post-type' => 'Your_Post_Type',
@@ -127,7 +127,7 @@ add_action( 'after_setup_theme', function() {
 
     // Custom ACF block default settings
     'acf_block_defaults' => [
-      'category'          => 'air-light',
+      'category'          => 'ak-starter',
       'mode'              => 'auto',
       'align'             => 'full',
       'post_types'        => [

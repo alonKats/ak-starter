@@ -9,7 +9,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-01-03 15:35:25
  *
- * @package air-light
+ * @package ak-starter
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 

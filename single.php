@@ -6,7 +6,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2022-02-08 17:03:18
  *
- * @package air-light
+ * @package ak-starter
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  */
 
@@ -25,12 +25,12 @@ get_header(); ?>
       <?php the_content();
 
       // Required by WordPress Theme Check, feel free to remove as it's rarely used in starter themes
-      wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'air-light' ), 'after' => '</div>' ) );
+      wp_link_pages( array( 'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'ak-starter' ), 'after' => '</div>' ) );
 
       entry_footer();
 
       if ( get_edit_post_link() ) {
-        edit_post_link( sprintf( wp_kses( __( 'Edit <span class="screen-reader-text">%s</span>', 'air-light' ), [ 'span' => [ 'class' => [] ] ] ), get_the_title() ), '<p class="edit-link">', '</p>' );
+        edit_post_link( sprintf( wp_kses( __( 'Edit <span class="screen-reader-text">%s</span>', 'ak-starter' ), [ 'span' => [ 'class' => [] ] ] ), get_the_title() ), '<p class="edit-link">', '</p>' );
       }
 
       the_post_navigation();

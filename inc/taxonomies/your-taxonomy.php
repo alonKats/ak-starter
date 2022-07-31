@@ -5,7 +5,7 @@
  * @Last Modified by:   Roni Laukkarinen
  * @Last Modified time: 2021-05-04 11:13:17
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;
@@ -22,20 +22,20 @@ class Your_Taxonomy extends Taxonomy {
   public function register( array $post_types = [] ) {
     // Taxonomy labels.
     $labels = [
-      'name'                  => _x( 'Your Taxonomies', 'Taxonomy plural name', 'air-light' ),
-      'singular_name'         => _x( 'Your Taxonomy', 'Taxonomy singular name', 'air-light' ),
-      'search_items'          => __( 'Search Your Taxonomies', 'air-light' ),
-      'popular_items'         => __( 'Popular Your Taxonomies', 'air-light' ),
-      'all_items'             => __( 'All Your Taxonomies', 'air-light' ),
-      'parent_item'           => __( 'Parent Your Taxonomy', 'air-light' ),
-      'parent_item_colon'     => __( 'Parent Your Taxonomy', 'air-light' ),
-      'edit_item'             => __( 'Edit Your Taxonomy', 'air-light' ),
-      'update_item'           => __( 'Update Your Taxonomy', 'air-light' ),
-      'add_new_item'          => __( 'Add New Your Taxonomy', 'air-light' ),
-      'new_item_name'         => __( 'New Your Taxonomy', 'air-light' ),
-      'add_or_remove_items'   => __( 'Add or remove Your Taxonomies', 'air-light' ),
-      'choose_from_most_used' => __( 'Choose from most used Taxonomies', 'air-light' ),
-      'menu_name'             => __( 'Your Taxonomy', 'air-light' ),
+      'name'                  => _x( 'Your Taxonomies', 'Taxonomy plural name', 'ak-starter' ),
+      'singular_name'         => _x( 'Your Taxonomy', 'Taxonomy singular name', 'ak-starter' ),
+      'search_items'          => __( 'Search Your Taxonomies', 'ak-starter' ),
+      'popular_items'         => __( 'Popular Your Taxonomies', 'ak-starter' ),
+      'all_items'             => __( 'All Your Taxonomies', 'ak-starter' ),
+      'parent_item'           => __( 'Parent Your Taxonomy', 'ak-starter' ),
+      'parent_item_colon'     => __( 'Parent Your Taxonomy', 'ak-starter' ),
+      'edit_item'             => __( 'Edit Your Taxonomy', 'ak-starter' ),
+      'update_item'           => __( 'Update Your Taxonomy', 'ak-starter' ),
+      'add_new_item'          => __( 'Add New Your Taxonomy', 'ak-starter' ),
+      'new_item_name'         => __( 'New Your Taxonomy', 'ak-starter' ),
+      'add_or_remove_items'   => __( 'Add or remove Your Taxonomies', 'ak-starter' ),
+      'choose_from_most_used' => __( 'Choose from most used Taxonomies', 'ak-starter' ),
+      'menu_name'             => __( 'Your Taxonomy', 'ak-starter' ),
     ];
 
     $args = [

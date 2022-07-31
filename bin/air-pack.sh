@@ -13,8 +13,8 @@ mkdir -p /var/www
 mkdir -p /var/www/airdev
 mkdir -p /var/www/airdev/content
 mkdir -p /var/www/airdev/content/themes
-rm /var/www/airdev/content/themes/air-light.zip
-sh /var/www/airdev/content/themes/air-light/bin/air-move-out.sh
+rm /var/www/airdev/content/themes/ak-starter.zip
+sh /var/www/airdev/content/themes/ak-starter/bin/air-move-out.sh
 cd /var/www/airdev/content/themes/
-zip -r air-light.zip air-light
+zip -r ak-starter.zip ak-starter
 sh $HOME/air-temp/bin/air-move-in.sh

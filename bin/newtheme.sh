@@ -28,7 +28,7 @@ fi
 echo ""
 echo "${WHITE}Using this start script requires you use the following:
 https://github.com/digitoimistodude/macos-lemp-setup
-https://github.com/digitoimistodude/air-light
+https://github.com/digitoimistodude/ak-starter
 ${TXTRESET}"
 
 # Import required tasks

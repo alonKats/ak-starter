@@ -7,7 +7,7 @@
  * @Last Modified by:   Timi Wahalahti
  * @Last Modified time: 2019-10-15 14:35:42
  *
- * @package air-light
+ * @package ak-starter
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  */
 

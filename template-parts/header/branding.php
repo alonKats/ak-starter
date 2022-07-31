@@ -2,7 +2,7 @@
 /**
  * Site branding & logo
  *
- * @package air-light
+ * @package ak-starter
  */
 
 namespace Air_Light;

@@ -577,7 +577,7 @@ This release includes only form style and accessibility improvements.
 
 ### 7.5.5: 2021-05-26
 
-* Bypass the file_get_contents restriction [#112](https://github.com/digitoimistodude/air-light/pull/112)
+* Bypass the file_get_contents restriction [#112](https://github.com/digitoimistodude/ak-starter/pull/112)
 
 ### 7.5.4: 2021-05-24
 
@@ -780,7 +780,7 @@ This release includes only form style and accessibility improvements.
 
 ### 7.0.7: 2021-04-14
 
-See [pull request #89](https://github.com/digitoimistodude/air-light/pull/89).
+See [pull request #89](https://github.com/digitoimistodude/ak-starter/pull/89).
 
 Project start scripts have been refactored completely same manner than in this [dudestack PR](https://github.com/digitoimistodude/dudestack/pull/11).
 
@@ -942,13 +942,13 @@ Project start scripts have been refactored completely same manner than in this [
 
 ### 6.7.2: 2021-02-19
 
-* Build production and development JS builds in gulp watch, [#63](https://github.com/digitoimistodude/air-light/pull/63)
-* Make us of new wp_get_environment_type function in modular content, [#65](https://github.com/digitoimistodude/air-light/pull/65)
+* Build production and development JS builds in gulp watch, [#63](https://github.com/digitoimistodude/ak-starter/pull/63)
+* Make us of new wp_get_environment_type function in modular content, [#65](https://github.com/digitoimistodude/ak-starter/pull/65)
 
 ### 6.7.1: 2021-02-18
 
-* Accessibility: Add required outline parameters for global links, [ab54efc](https://github.com/digitoimistodude/air-light/commit/ab54efc820bfd94a6a15ea492e143971c54ea684)
-* Add button components, [#62](https://github.com/digitoimistodude/air-light/pull/62)
+* Accessibility: Add required outline parameters for global links, [ab54efc](https://github.com/digitoimistodude/ak-starter/commit/ab54efc820bfd94a6a15ea492e143971c54ea684)
+* Add button components, [#62](https://github.com/digitoimistodude/ak-starter/pull/62)
 
 ### 6.7.0: 2021-02-18
 
